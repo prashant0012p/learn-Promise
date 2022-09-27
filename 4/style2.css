@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(111, 110, 184, 0.295);
+}
+.container{
+    display: grid;
+    grid-template-rows:45px 300px 200px 50px ;
+    grid-template-columns: 400px;
+    justify-content: center;
+    
+    
+    
+}
+
+ img{
+  
+              
+}
+#image > img{
+    max-height: 100%;
+    max-width: 100%;
+    height:fit-content;
+      width: 100%;
+      object-fit: cover;
+      vertical-align: middle;
+      display: inline-block;
+      height: auto;
+
+
+
+    
+    /* border-radius: 5px; */
+
+
+}
+
+
+.container div{
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bio{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(224, 225, 226);
+    
+}
+#position{
+    color: rgb(138, 122, 122);
+    font-weight: 700;
+    text-decoration: underline;
+}
+#company{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 1px dashed black;
+    padding: 2px; */
+}
+#name{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#contact{
+   font-size: 25px;
+   color: wheat;
+}
+#heading{
+  font-family:serif;
+  font-weight:bolder;
+}
+.contactbox{
+  background-color: rgb(63, 57, 24);
+  border-bottom-left-radius:10px ;
+  border-bottom-right-radius: 10px;
+}
+.headtag{
+  background-color: rgb(243, 243, 243);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px ;
+}
